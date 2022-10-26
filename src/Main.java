@@ -56,9 +56,18 @@ public class Main {
         var oneDifference = weightTwoBoxer - weightOneBoxer;
         System.out.println("Разница путем вычитания составит " + oneDifference + "кг");
         var twoDifference = weightTwoBoxer % weightOneBoxer;
-        System.out.println("Разница путем остаток от деления равно " + twoDifference "кг");
+        System.out.println("Разница путем остаток от деления равно " + twoDifference + "кг");
 
+        // задание 8
+        var allHours = 640;
+        var oneWorker = 8; // кол. часов у одного работник
+        var firstBrigade = allHours / oneWorker;  // первая бригада
+        System.out.println("Всего работников в компании – " + firstBrigade + " человек");
 
+        // при учёте распределения 640 часов
+
+        var secondBrigade = firstBrigade + 94;
+        System.out.println("Если в компании работает " + secondBrigade + " человек, то всего " + (double)allHours / secondBrigade + " часов работы может быть поделено между сотрудниками." );
 
 
 
