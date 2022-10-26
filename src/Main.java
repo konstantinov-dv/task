@@ -43,6 +43,23 @@ public class Main {
         System.out.println(frog / q);
         System.out.println(frog / q + 4);
 
+        // задание 6
+        var weightOneBoxer = 78.2;
+        var weightTwoBoxer = 87.7;
+        var totalWeight = weightOneBoxer + weightTwoBoxer;
+        System.out.println( "Общий вес боксеров " + totalWeight + "кг.");
+
+        var difference = weightTwoBoxer % weightOneBoxer;
+        System.out.println("Разница боксеров " + difference + "кг");
+
+        // задание 7
+        var oneDifference = weightTwoBoxer - weightOneBoxer;
+        System.out.println("Разница путем вычитания составит " + oneDifference + "кг");
+        var twoDifference = weightTwoBoxer % weightOneBoxer;
+        System.out.println("Разница путем остаток от деления равно " + twoDifference "кг");
+
+
+
 
 
 
